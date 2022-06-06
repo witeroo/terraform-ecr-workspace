@@ -6,7 +6,7 @@ provider "aws" {
 
 
 module "ecrm" {
-  source  = "app.terraform.io/ogacloud/ecrm/aws"
+  source  = "app.terraform.io/witeroo/ecr/aws"
   version = "0.0.1"
   name = var.name
   # insert required variables here
