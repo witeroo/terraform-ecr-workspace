@@ -5,7 +5,7 @@ provider "aws" {
 }
 
 
-module "ecrm" {
+module "ecr" {
   source  = "app.terraform.io/witeroo/ecr/aws"
   version = "0.0.1"
   name = var.name
